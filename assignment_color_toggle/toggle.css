@@ -5,7 +5,9 @@
   text-align: center;
 }
 
-
+.classlar{
+  background-color: red;
+}
 * {
     margin: 0;
     padding: 0;
@@ -32,11 +34,11 @@ header{
   width: 75px;
   height: calc(100vh - 120px);
   z-index: 1000;
-  visibility: hidden;
+  
   
 }
 
-button {
+li {
   text-transform: uppercase;
   display: flex;
   width: 250px;
@@ -45,11 +47,11 @@ button {
     background: white;
     color: black;
     border: none;
-    opacity: 0;
+    
     border: 1px solid rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
 
-button:hover {
+li:hover {
     background: rgba(255, 255, 255, 0.9);
 }
